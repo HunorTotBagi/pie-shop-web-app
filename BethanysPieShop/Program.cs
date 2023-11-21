@@ -1,4 +1,5 @@
 using BethanysPieShop.Models;
+using BethanysPieShop.Models.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
