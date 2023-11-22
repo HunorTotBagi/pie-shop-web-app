@@ -44,5 +44,10 @@ namespace BethanysPieShop.Controllers
 
             return View(pie);
         }
+
+        public IActionResult Search()
+        {
+            return View();
+        }
     }
 }
